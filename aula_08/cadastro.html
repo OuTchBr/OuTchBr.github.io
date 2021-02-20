@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Aula 08</title>
+	<meta charset="utf-8"/>
+</head>
+<body>
+	<ul><h2><a href="..\index.html">Voltar para a página inicial</a></h2></ul>
+
+	<h1>Atividade 08</h1>
+	<a href="aula_08_01.html">Voltar para tela de login</a></h2>
+	<h2>Cadastro</h2>
+	<form action="http://191.252.62.149:8080/pweb/salvar.jsp" method="post">
+		Login:<br/>
+		<input type="text" name="login"><br/>
+
+		Senha:<br/>
+		<input type="password" name="senha"><br/>
+		
+		Confirme a Senha:<br/>
+		<input type="password" name="senha_confirm"><br/>
+
+		Nome:<br/>
+		<input type="text" name="nome"><br/>
+
+		Sexo:<br/>
+		<input type="radio" value="Masculino" name="sexo">Masculino<br/>
+		<input type="radio" value="Feminino" name="sexo">Feminino<br/>
+
+		Email:<br/>
+		<input type="email" name="email"><br/>
+
+		Interesses:<br/>
+		<input type="checkbox" value="Politica" name="interesses">
+		Política<br/>
+		<input type="checkbox" value="Economia" name="interesses">
+		Economia<br/>
+		<input type="checkbox" value="Carros" name="interesses">
+		Carros<br/>
+		<input type="checkbox" value="Celebridades" name="interesses">
+		Celebridades<br/>
+
+		Estado:<br/>
+		<select name="estado">
+			<option value="" selected>Selecione o Estado</option>
+			<option value="PI" >Piauí</option>
+			<option value="CE" >Ceará</option>
+			<option value="MA" >Maranhão</option>
+		</select><br/>
+
+		Observações:<br/>
+		<textarea name="observacao" cols="50">Digite sua observação aqui</textarea><br/>
+
+		<input type="submit" value="Enviar">
+	</form>
+	
+
+</body>
+</html>
