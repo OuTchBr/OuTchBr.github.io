@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title></title>
+	<meta charset="utf-8">
+
+	<style type="text/css">
+
+		body{
+			background: #61bd8c;
+			padding: 0px;
+		}
+
+		#conteudo{
+			background: #FFFFFF;
+			padding: 10px;
+			width: 900px;
+			margin: 100px auto;
+
+		}
+
+		.caixa{
+			background: red;
+			margin: 10px;
+			width: 150px;
+			height: 150px;
+			color: #FFFFFF;
+
+		}
+
+		#relativo{
+			left: 30px;
+			position: relative;
+		}
+
+		#absoluto{
+			left: 350px;
+			position: absolute;
+		}
+
+		#fixo{
+			left: 400px;
+			position: fixed;
+			top: 10px;
+		}
+	</style>
+</head>
+<body>
+	<ul><h2><a href="..\index.html">Voltar para a página inicial</a></h2></ul>
+	<ul><h2><a href="atividade-16-01.html" target="_blank">Ir para a Atividade 01 da Aula 16</a></h2></ul>
+	<ul><h2><a href="atividade-16-02.html" target="_blank">Ir para a Atividade 02 da Aula 16</a></h2></ul>
+	<div class="noticia">
+	<span>Conteiner body</span>
+	<div id="conteudo">
+		Conteiner div
+		<div id="relativo" class="caixa">
+			Caixa 01 - Relativo
+		</div>
+		<div id="fixo" class="caixa">
+			Caixa 02 - Fixo
+		</div>
+		<div id="absoluto" class="caixa">
+			Caixa 03 - Absoluto
+		</div> 
+	</div>
+
+</body>
+</html>
