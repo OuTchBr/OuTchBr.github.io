@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Atividade 19</title>
+	<meta charset="utf-8">
+
+	<style type="text/css">
+		.big-box{
+			width: 200px;
+			height: 200px;
+			float: left;
+		}
+		.box{
+			border: solid 50px;
+			float: left;
+			box-sizing: border-box;
+		}
+
+		#top-left{
+			border-radius: 50px 50px 0 50px;
+			border-color: red;
+		}
+		#top-right{
+			border-radius: 50px 50px 50px 0;
+			border-color: yellow;
+		}
+		#bot-left{
+			border-radius: 50px 0 50px 50px;
+			border-color: green;
+		}
+		#bot-right{
+			border-radius: 0 50px 50px 50px;
+			border-color: purple;
+		}
+		#quad-1{
+			border-radius: 100px 0 0 0;
+			border-color: red;
+		}
+		#quad-2{
+			border-radius: 0 100px 0 0;
+			border-color: yellow;
+		}
+		#quad-3{
+			border-radius: 0 0 0 100px;
+			border-color: green;
+		}
+		#quad-4{
+			border-radius: 0 0 100px 0;
+			border-color: purple;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div class="big-box">
+		<div class="box" id="top-left"></div>
+		<div class="box" id="top-right"></div>
+		<div class="box" id="bot-left"></div>
+		<div class="box" id="bot-right"></div>
+	</div>
+	<div class="big-box">
+		<div class="box" id="quad-1"></div>
+		<div class="box" id="quad-2"></div>
+		<div class="box" id="quad-3"></div>
+		<div class="box" id="quad-4"></div>
+	</div>
+</body>
+</html>
