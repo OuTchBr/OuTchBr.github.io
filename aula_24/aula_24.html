@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Atividade 24</title>
+	<style type="text/css">
+		.box{
+			position: relative;
+			left: 10px;
+			top: 10px;
+			width: 50px;
+			height: 50px;
+			background: red;
+			animation: minhaAnimacao 5s 1s 3 alternate;
+		}
+		.box:hover{
+			border: solid 15px black;
+			transition: border 3s;
+		}
+		@keyframes minhaAnimacao {
+			from{
+				left: 10px;
+			}
+			to{
+				left: 50px;
+				background: blue;
+				border-radius: 100px;
+
+			}
+		}
+
+		.caixa{
+			position: relative;
+			left: 10px;
+			top: 60px;
+			width: 50px;
+			height: 50px;
+			background: green;
+			animation: mudaCor 10s 1s infinite;
+		}
+		@keyframes mudaCor{
+			0%{
+				background: green;
+			}
+			25%{
+				transform: rotate(90deg);
+				background: red;
+			}
+			50%{
+				transform: rotate(180deg);
+				background: blue;
+			}
+			75%{
+				transform: rotate(270deg);
+				background: yellow;
+			}
+			100%{
+				transform: rotate(360deg);
+				background: green;
+			}
+	</style>
+</head>
+<body>
+	<ul><h2><a href="..\index.html">Voltar para a página inicial</a></h2></ul>
+	<div class="box">
+		
+	</div>
+	<div class="caixa"></div>
+
+</body>
+</html>
